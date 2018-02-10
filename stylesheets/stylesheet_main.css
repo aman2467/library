@@ -1,6 +1,6 @@
 
 body {
-  background-image: url('../icons/background.jpg');
+	background-image: url('../icons/background.jpg');
 }
 
 .books{
@@ -13,9 +13,11 @@ body {
 	float:left;
 	padding:10px;
 	opacity:0.8;
+	filter:grayscale(100%);
 }
 
 .books:hover{
 	opacity:1.0;
 	margin-top:15px;
+	filter:grayscale(0%);
 }
